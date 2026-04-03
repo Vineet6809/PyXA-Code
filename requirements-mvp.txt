@@ -6,3 +6,7 @@ uiautomation>=2.0.20
 llama-cpp-python>=0.2.90
 lancedb>=0.18.0
 openai>=1.50.0
+pytesseract>=0.3.10
+winrt-Windows.Media.Ocr>=3.2.1
+winrt-Windows.Graphics.Imaging>=3.2.1
+winrt-Windows.Storage.Streams>=3.2.1
