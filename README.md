@@ -13,6 +13,13 @@ This repository is a runnable **v1 completion sprint** foundation for a personal
 - Integration bridge: subprocess-based `claw-code` CLI adapter with retry/logging.
 - Provider wrapper: OpenAI Codex client wrapper with retry/logging.
 - Curated compatible-repo recommendations for your system.
+This repository now includes a practical starter kit based on the Pyxa-v1-0 research notes:
+
+- System/hardware requirement profile for the Windows MVP.
+- Safety-first execution controller with cooperative stop.
+- Global kill-switch helper abstraction.
+- Perception delta utilities (dHash + change threshold).
+- Initial tool-calling schema for desktop action planning.
 
 ## Quick start
 
@@ -47,3 +54,11 @@ python -m pyxa_integration.cli "click and type"
 
 - Standard test run: `python -m pytest -q`
 - Windows-only integration tests are marked with `windows_integration`.
+```
+
+## Included modules
+
+- `pyxa_integration.requirements`: structured hardware/software requirements.
+- `pyxa_integration.controller`: execution loop + kill-switch components.
+- `pyxa_integration.perception`: fast change detection helpers.
+- `pyxa_integration.planning`: default JSON tool schema for LLM tool calling.

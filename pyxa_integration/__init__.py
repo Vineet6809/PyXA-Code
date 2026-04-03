@@ -6,6 +6,9 @@ from .requirements import HardwareProfile, SoftwareRequirements, default_windows
 __all__ = [
     "RuntimeProfile",
     "windows_i5_1235u_profile",
+from .requirements import HardwareProfile, SoftwareRequirements, default_windows_mvp_requirements
+
+__all__ = [
     "HardwareProfile",
     "SoftwareRequirements",
     "default_windows_mvp_requirements",
